@@ -25,19 +25,31 @@ st.title("Meu Portfólio")
 if selecao == "Resumo das Qualificações":
     st.header("Resumo das Qualificações")
     st.write("""
-    Profissional com experiência em desenvolvimento de software, análise de dados e 
-    implementação de soluções baseadas em IA. Possui habilidades avançadas em Python 
-    e ferramentas de análise, com histórico de sucesso em projetos de otimização e inovação.
+    Profissional experiente em tecnologia da informação com 30 anos de carreira. Atuo como instrutor, desenvolvedor de sistemas, analista, gestor de infraestrutura e gerente de projetos. Fundou sua própria empresa e possui vasta experiência em diferentes portes e segmentos de mercado. Atualmente, ministra cursos de formação profissional em instituição renomada.
+
+    Habilidades e experiências:
+
+    * Ampla vivência em desenvolvimento de sistemas, incluindo análise, programação e implementação.
+    * Sólida experiência em gestão de projetos e infraestrutura de TI.
+    * Capacidade de liderança e trabalho em equipe.
+    * Habilidades de comunicação e ensino eficazes.
+    * Experiência em diversos setores, incluindo educação, saúde e odontologia.
     """)
 
 # Seção "Experiência Profissional"
 elif selecao == "Experiência Profissional":
     st.header("Experiência Profissional")
     st.write("""
-    - Empresa XYZ (2020 - Atual): Desenvolvedor de Software
-        - Responsável por desenvolvimento de aplicações web e automação de processos.
-    - Empresa ABC (2017 - 2020): Cientista de Dados
-        - Atuou na análise de grandes volumes de dados e desenvolvimento de modelos preditivos.
+    - SENAI - Serviço Nacional de Aprendizagem Industrial
+        - Instrutor de Formação Profissional
+        - junho de 2022 - Present (2 anos 6 meses)
+        - Araraquara, São Paulo, Brasil
+    
+    - FI Sistemas
+        - Programador
+        - junho de 2019 - agosto de 2022 (3 anos 3 meses)
+        - Araraquara
+        - Desenvolvimento de sistema para Cooperativas Odontológicas utilizando linguagem Delphi e banco de dados Firebird
     """)
 
 # Seção "Educação"
